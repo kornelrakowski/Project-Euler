@@ -1,0 +1,15 @@
+# Problem 2
+
+max = 4000000
+x, y = 1, 2
+sum = 0
+
+while x < max+1:
+    print(x)
+    if x%2 == 0:
+        sum = sum + x
+    z = x + y
+    x = y
+    y = z
+
+print(sum)
